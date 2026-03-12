@@ -10,7 +10,7 @@ const multi = (a,b) =>{
     return a*b;
 };
 
-
+module.exports
 export default multi;
 
 //we have two exports named and default : for default export we have to export the one function of same name only 1time from the page
