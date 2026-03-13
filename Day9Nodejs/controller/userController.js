@@ -19,3 +19,9 @@ exports.getUsersById = (req, res) => {
     });
 
 };
+exports.addUser = (req, res) => {
+
+    console.log("user body",req.body)
+    res.json(req.body);
+
+};
